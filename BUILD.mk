@@ -78,7 +78,7 @@ THIRD_PARTY_MBEDTLS_HDRS = $(foreach x,$(THIRD_PARTY_MBEDTLS_ARTIFACTS),$($(x)_H
 THIRD_PARTY_MBEDTLS_INCS = $(foreach x,$(THIRD_PARTY_MBEDTLS_ARTIFACTS),$($(x)_INCS))
 THIRD_PARTY_MBEDTLS_CHECKS = $(foreach x,$(THIRD_PARTY_MBEDTLS_ARTIFACTS),$($(x)_CHECKS))
 THIRD_PARTY_MBEDTLS_OBJS = $(foreach x,$(THIRD_PARTY_MBEDTLS_ARTIFACTS),$($(x)_OBJS))
-$(THIRD_PARTY_MBEDTLS_A_OBJS): third_party/mbedtls/mbedtls.mk
+$(THIRD_PARTY_MBEDTLS_A_OBJS): third_party/mbedtls/BUILD.mk
 
 .PHONY: o/$(MODE)/third_party/mbedtls
 o/$(MODE)/third_party/mbedtls:						\
