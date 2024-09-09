@@ -18,7 +18,7 @@
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/fmt/itoa.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/iana.h"
+#include "./iana.h"
 
 const char *DescribeMbedtlsErrorCode(int ret) {
   static _Thread_local char sslerr[64];

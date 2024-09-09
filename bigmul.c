@@ -20,9 +20,9 @@
 #include "libc/macros.h"
 #include "libc/mem/mem.h"
 #include "libc/nexgen32e/x86feature.h"
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/bignum_internal.h"
-#include "third_party/mbedtls/profile.h"
+#include "./bignum.h"
+#include "./bignum_internal.h"
+#include "./profile.h"
 
 void Mul(uint64_t *c, const uint64_t *A, unsigned n, const uint64_t *B, unsigned m)
 {

@@ -15,7 +15,7 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/aesce.h"
+#include "./aesce.h"
 #include "libc/str/str.h"
 #include "third_party/aarch64/arm_neon.internal.h"
 __static_yoink("mbedtls_notice");

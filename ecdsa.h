@@ -1,8 +1,8 @@
 #ifndef MBEDTLS_ECDSA_H_
 #define MBEDTLS_ECDSA_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/md.h"
+#include "./config.h"
+#include "./ecp.h"
+#include "./md.h"
 COSMOPOLITAN_C_START_
 
 /**

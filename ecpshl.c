@@ -15,8 +15,8 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/math.h"
+#include "./ecp.h"
+#include "./math.h"
 
 static void mbedtls_mpi_shift_l_mod_p256( const mbedtls_ecp_group *G,
                                           mbedtls_mpi *X )

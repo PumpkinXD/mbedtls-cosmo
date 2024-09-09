@@ -16,10 +16,10 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/str/str.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/hkdf.h"
-#include "third_party/mbedtls/platform.h"
+#include "./common.h"
+#include "./error.h"
+#include "./hkdf.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 /**

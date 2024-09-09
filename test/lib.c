@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/lib.h"
+#include "./test/lib.h"
 #include "libc/assert.h"
 #include "libc/calls/calls.h"
 #include "libc/calls/struct/timespec.h"
@@ -45,11 +45,11 @@
 #include "libc/time.h"
 #include "libc/x/x.h"
 #include "libc/x/xasprintf.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/endian.h"
-#include "third_party/mbedtls/error.h"
+#include "./config.h"
+#include "./endian.h"
+#include "./error.h"
 #include "libc/serialize.h"
-#include "third_party/mbedtls/platform.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 __static_yoink("zipos");

@@ -16,7 +16,7 @@
 │ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR             │
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/ssl.h"
+#include "./ssl.h"
 
 /* https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml */
 const char *mbedtls_sig_alg_name(int t) {

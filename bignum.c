@@ -15,7 +15,7 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/bignum.h"
+#include "./bignum.h"
 #include "libc/serialize.h"
 #include "libc/intrin/bsf.h"
 #include "libc/intrin/bswap.h"
@@ -24,15 +24,15 @@
 #include "libc/nexgen32e/x86feature.h"
 #include "libc/runtime/runtime.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/bignum_internal.h"
-#include "third_party/mbedtls/chk.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/fastdiv.h"
-#include "third_party/mbedtls/math.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/profile.h"
-#include "third_party/mbedtls/select.h"
+#include "./bignum_internal.h"
+#include "./chk.h"
+#include "./common.h"
+#include "./error.h"
+#include "./fastdiv.h"
+#include "./math.h"
+#include "./platform.h"
+#include "./profile.h"
+#include "./select.h"
 __static_yoink("mbedtls_notice");
 
 /**

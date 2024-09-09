@@ -15,16 +15,16 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/ssl_ciphersuites.h"
+#include "./ssl_ciphersuites.h"
 #include "libc/nexgen32e/x86feature.h"
 #include "libc/runtime/runtime.h"
 #include "libc/sysv/consts/auxv.h"
 #include "libc/sysv/consts/hwcap.h"
-#include "third_party/mbedtls/aes.h"
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/ssl.h"
+#include "./aes.h"
+#include "./cipher.h"
+#include "./common.h"
+#include "./platform.h"
+#include "./ssl.h"
 __static_yoink("mbedtls_notice");
 
 /*

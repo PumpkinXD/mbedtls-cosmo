@@ -1,12 +1,12 @@
 #ifndef MBEDTLS_SSL_INTERNAL_H
 #define MBEDTLS_SSL_INTERNAL_H
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/md5.h"
-#include "third_party/mbedtls/sha1.h"
-#include "third_party/mbedtls/sha256.h"
-#include "third_party/mbedtls/sha512.h"
-#include "third_party/mbedtls/ssl.h"
+#include "./cipher.h"
+#include "./config.h"
+#include "./md5.h"
+#include "./sha1.h"
+#include "./sha256.h"
+#include "./sha512.h"
+#include "./ssl.h"
 #include "third_party/zlib/zlib.h"
 
 /* Determine minimum supported version */

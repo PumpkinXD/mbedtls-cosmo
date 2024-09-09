@@ -1,8 +1,8 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_ENTROPY_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_ENTROPY_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/sha256.h"
-#include "third_party/mbedtls/sha512.h"
+#include "./config.h"
+#include "./sha256.h"
+#include "./sha512.h"
 COSMOPOLITAN_C_START_
 
 #if defined(MBEDTLS_SHA512_C) && !defined(MBEDTLS_ENTROPY_FORCE_SHA256)

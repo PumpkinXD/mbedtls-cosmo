@@ -1,6 +1,6 @@
 #ifndef MBEDTLS_CERTS_H
 #define MBEDTLS_CERTS_H
-#include "third_party/mbedtls/config.h"
+#include "./config.h"
 
 #ifdef __cplusplus
 extern "C" {

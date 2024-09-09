@@ -16,8 +16,8 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/fmt/itoa.h"
-#include "third_party/mbedtls/iana.h"
-#include "third_party/mbedtls/ssl.h"
+#include "./iana.h"
+#include "./ssl.h"
 
 /**
  * Returns SSL fatal alert description.

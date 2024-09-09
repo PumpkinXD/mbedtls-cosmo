@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -37,14 +37,14 @@
 #define TEST_SUITE_ACTIVE
 
 #if defined(MBEDTLS_CIPHER_C)
-#include "third_party/mbedtls/cipher.h"
+#include "./cipher.h"
 
 #if defined(MBEDTLS_AES_C)
-#include "third_party/mbedtls/aes.h"
+#include "./aes.h"
 #endif
 
 #if defined(MBEDTLS_GCM_C)
-#include "third_party/mbedtls/gcm.h"
+#include "./gcm.h"
 #endif
 
 #if defined(MBEDTLS_CIPHER_MODE_AEAD) || defined(MBEDTLS_NIST_KW_C)
@@ -2055,7 +2055,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_cipher.nist_kw.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_cipher.nist_kw.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

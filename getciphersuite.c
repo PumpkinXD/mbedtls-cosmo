@@ -16,7 +16,7 @@
 │ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR             │
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/ssl_ciphersuites.h"
+#include "./ssl_ciphersuites.h"
 
 #define S32(S) (S[0] << 24 | S[1] << 16 | S[2] << 8 | S[3])
 

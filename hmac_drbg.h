@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_HMAC_DRBG_H_
 #define MBEDTLS_HMAC_DRBG_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/md.h"
+#include "./config.h"
+#include "./md.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_HMAC_DRBG_REQUEST_TOO_BIG              -0x0003  /*< Too many random requested in single call. */

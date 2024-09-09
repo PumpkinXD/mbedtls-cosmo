@@ -1,9 +1,9 @@
 #ifndef MBEDTLS_X509_H_
 #define MBEDTLS_X509_H_
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/pk.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./asn1.h"
+#include "./config.h"
+#include "./pk.h"
+#include "./rsa.h"
 COSMOPOLITAN_C_START_
  
 #define MBEDTLS_ERR_X509_FEATURE_UNAVAILABLE              -0x2080  /*< Unavailable feature, e.g. RSA hashing/encryption combination. */

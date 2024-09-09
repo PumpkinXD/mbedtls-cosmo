@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_SHA256_H_
 #define MBEDTLS_SHA256_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/platform.h"
+#include "./config.h"
+#include "./platform.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_SHA256_HW_ACCEL_FAILED                -0x0037  /*< SHA-256 hardware accelerator failed */

@@ -15,7 +15,7 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/iana.h"
+#include "./iana.h"
 
 bool IsCipherSuiteGood(uint16_t x) {
   switch (x) {

@@ -6,7 +6,7 @@
 #include "libc/mem/mem.h"
 #include "libc/runtime/runtime.h"
 #include "libc/stdio/stdio.h"
-#include "third_party/mbedtls/config.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_EXIT_SUCCESS 0

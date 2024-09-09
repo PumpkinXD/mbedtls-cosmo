@@ -17,7 +17,7 @@
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/str/str.h"
-#include "third_party/mbedtls/platform.h"
+#include "./platform.h"
 
 // disable ubsan because n=0 is defined behavior in cosmopolitan
 dontubsan void mbedtls_platform_zeroize(void *p, size_t n) {

@@ -16,11 +16,11 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/str/str.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/endian.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/nist_kw.h"
-#include "third_party/mbedtls/platform.h"
+#include "./common.h"
+#include "./endian.h"
+#include "./error.h"
+#include "./nist_kw.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 /*

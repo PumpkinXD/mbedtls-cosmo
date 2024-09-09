@@ -15,20 +15,20 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/gcm.h"
+#include "./gcm.h"
 #include "libc/serialize.h"
 #include "libc/intrin/likely.h"
 #include "libc/log/log.h"
 #include "libc/nexgen32e/x86feature.h"
 #include "libc/runtime/runtime.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/aes.h"
-#include "third_party/mbedtls/aesni.h"
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/endian.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/platform.h"
+#include "./aes.h"
+#include "./aesni.h"
+#include "./cipher.h"
+#include "./common.h"
+#include "./endian.h"
+#include "./error.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 /*

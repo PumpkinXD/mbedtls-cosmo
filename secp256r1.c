@@ -17,9 +17,9 @@
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/log/check.h"
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/math.h"
-#include "third_party/mbedtls/platform.h"
+#include "./bignum.h"
+#include "./math.h"
+#include "./platform.h"
 
 #define Q(i) p[i >> 1]
 #define L(w) (w & 0x00000000ffffffff)

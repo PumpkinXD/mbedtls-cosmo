@@ -1,6 +1,6 @@
 #ifndef MBEDTLS_LIBRARY_COMMON_H
 #define MBEDTLS_LIBRARY_COMMON_H
-#include "third_party/mbedtls/config.h"
+#include "./config.h"
 
 #ifdef MBEDTLS_TEST_HOOKS
 #define MBEDTLS_STATIC_TESTABLE

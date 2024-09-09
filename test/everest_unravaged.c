@@ -1,11 +1,11 @@
 #include "libc/limits.h"
 #include "libc/time.h"
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
+#include "./asn1.h"
+#include "./bignum.h"
+#include "./common.h"
+#include "./error.h"
 #include "libc/serialize.h"
-#include "third_party/mbedtls/platform.h"
+#include "./platform.h"
 
 __notice(everest_notice, "Everest (Apache 2.0)\n\
 Copyright 2016-2018 INRIA and Microsoft Corporation");

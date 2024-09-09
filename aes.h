@@ -1,6 +1,6 @@
 #ifndef MBEDTLS_AES_H_
 #define MBEDTLS_AES_H_
-#include "third_party/mbedtls/config.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 /* padlock.c and aesni.c rely on these values! */

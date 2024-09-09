@@ -15,13 +15,13 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/asn1write.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/pem.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/x509_csr.h"
+#include "./asn1write.h"
+#include "./common.h"
+#include "./error.h"
+#include "./oid.h"
+#include "./pem.h"
+#include "./platform.h"
+#include "./x509_csr.h"
 __static_yoink("mbedtls_notice");
 
 /*

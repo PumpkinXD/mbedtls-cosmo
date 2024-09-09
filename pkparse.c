@@ -16,17 +16,17 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/calls/calls.h"
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/ecdsa.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/pem.h"
-#include "third_party/mbedtls/pk.h"
-#include "third_party/mbedtls/pkcs5.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./asn1.h"
+#include "./common.h"
+#include "./ecdsa.h"
+#include "./ecp.h"
+#include "./error.h"
+#include "./oid.h"
+#include "./pem.h"
+#include "./pk.h"
+#include "./pkcs5.h"
+#include "./platform.h"
+#include "./rsa.h"
 __static_yoink("mbedtls_notice");
 
 /*

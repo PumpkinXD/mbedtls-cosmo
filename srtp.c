@@ -16,7 +16,7 @@
 │ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR             │
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/ssl.h"
+#include "./ssl.h"
 
 const char *mbedtls_ssl_get_srtp_profile_as_string(
     mbedtls_ssl_srtp_profile profile) {

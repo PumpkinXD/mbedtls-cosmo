@@ -16,15 +16,15 @@
 │ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR             │
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/san.h"
+#include "./san.h"
 #include "libc/serialize.h"
 #include "libc/sock/sock.h"
 #include "libc/sysv/consts/af.h"
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/asn1write.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/x509_crt.h"
+#include "./asn1.h"
+#include "./asn1write.h"
+#include "./oid.h"
+#include "./platform.h"
+#include "./x509_crt.h"
 
 /**
  * Writes Subject Alternative Name section to certificate.

@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_MD5_H_
 #define MBEDTLS_MD5_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/platform.h"
+#include "./config.h"
+#include "./platform.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_MD5_HW_ACCEL_FAILED -0x002F  /*< MD5 hardware accelerator failed */

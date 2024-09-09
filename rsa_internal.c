@@ -15,11 +15,11 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/profile.h"
-#include "third_party/mbedtls/rsa.h"
-#include "third_party/mbedtls/rsa_internal.h"
+#include "./bignum.h"
+#include "./common.h"
+#include "./profile.h"
+#include "./rsa.h"
+#include "./rsa_internal.h"
 __static_yoink("mbedtls_notice");
 
 /*

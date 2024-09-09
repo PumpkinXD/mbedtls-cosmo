@@ -1,6 +1,6 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_CCM_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_CCM_H_
-#include "third_party/mbedtls/cipher.h"
+#include "./cipher.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_CCM_BAD_INPUT \

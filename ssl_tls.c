@@ -16,18 +16,18 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/log/log.h"
-#include "third_party/mbedtls/chk.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/debug.h"
-#include "third_party/mbedtls/endian.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/ssl.h"
-#include "third_party/mbedtls/ssl_ciphersuites.h"
-#include "third_party/mbedtls/ssl_internal.h"
-#include "third_party/mbedtls/version.h"
+#include "./chk.h"
+#include "./common.h"
+#include "./config.h"
+#include "./debug.h"
+#include "./endian.h"
+#include "./error.h"
+#include "./oid.h"
+#include "./platform.h"
+#include "./ssl.h"
+#include "./ssl_ciphersuites.h"
+#include "./ssl_internal.h"
+#include "./version.h"
 __static_yoink("mbedtls_notice");
 
 /**

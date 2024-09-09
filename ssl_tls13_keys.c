@@ -15,10 +15,10 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/hkdf.h"
-#include "third_party/mbedtls/ssl_internal.h"
-#include "third_party/mbedtls/ssl_tls13_keys.h"
+#include "./common.h"
+#include "./hkdf.h"
+#include "./ssl_internal.h"
+#include "./ssl_tls13_keys.h"
 __static_yoink("mbedtls_notice");
 
 /*

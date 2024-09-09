@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 #include "libc/log/log.h"
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -41,7 +41,7 @@
 #define TEST_SUITE_ACTIVE
 
 #if defined(MBEDTLS_AES_C)
-#include "third_party/mbedtls/aes.h"
+#include "./aes.h"
 void test_aes_encrypt_ecb( data_t * key_str, data_t * src_str,
                       data_t * dst, int setkey_result )
 {
@@ -1104,7 +1104,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_aes.cbc.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_aes.cbc.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

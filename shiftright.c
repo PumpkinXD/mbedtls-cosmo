@@ -17,7 +17,7 @@
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/nexgen32e/x86feature.h"
-#include "third_party/mbedtls/bignum_internal.h"
+#include "./bignum_internal.h"
 
 void (*ShiftRight)(uint64_t *, size_t, unsigned char);
 

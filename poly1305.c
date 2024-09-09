@@ -15,12 +15,12 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/poly1305.h"
+#include "./poly1305.h"
 #include "libc/serialize.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/platform.h"
+#include "./common.h"
+#include "./error.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 /**

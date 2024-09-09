@@ -15,9 +15,9 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/ecdh_everest.h"
+#include "./ecdh_everest.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/everest.h"
+#include "./everest.h"
 #if defined(MBEDTLS_ECDH_C) && defined(MBEDTLS_ECDH_VARIANT_EVEREST_ENABLED)
 #define KEYSIZE 32
 __static_yoink("mbedtls_notice");

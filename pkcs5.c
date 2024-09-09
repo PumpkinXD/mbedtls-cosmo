@@ -15,13 +15,13 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/pkcs5.h"
-#include "third_party/mbedtls/platform.h"
+#include "./asn1.h"
+#include "./cipher.h"
+#include "./common.h"
+#include "./error.h"
+#include "./oid.h"
+#include "./pkcs5.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 /**

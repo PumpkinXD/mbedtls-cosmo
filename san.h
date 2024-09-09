@@ -1,6 +1,6 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SAN_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SAN_H_
-#include "third_party/mbedtls/x509_crt.h"
+#include "./x509_crt.h"
 COSMOPOLITAN_C_START_
 
 struct mbedtls_san {

@@ -1,6 +1,6 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_BASE64_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_BASE64_H_
-#include "third_party/mbedtls/config.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_BASE64_BUFFER_TOO_SMALL   -0x002A  /*< Output buffer too small. */

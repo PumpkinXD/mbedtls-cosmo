@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -39,14 +39,14 @@
 #if defined(MBEDTLS_RSA_C)
 #if defined(MBEDTLS_BIGNUM_C)
 #if defined(MBEDTLS_GENPRIME)
-#include "third_party/mbedtls/rsa.h"
-#include "third_party/mbedtls/rsa_internal.h"
-#include "third_party/mbedtls/md5.h"
-#include "third_party/mbedtls/sha1.h"
-#include "third_party/mbedtls/sha256.h"
-#include "third_party/mbedtls/sha512.h"
-#include "third_party/mbedtls/entropy.h"
-#include "third_party/mbedtls/ctr_drbg.h"
+#include "./rsa.h"
+#include "./rsa_internal.h"
+#include "./md5.h"
+#include "./sha1.h"
+#include "./sha256.h"
+#include "./sha512.h"
+#include "./entropy.h"
+#include "./ctr_drbg.h"
 
 #if defined(MBEDTLS_CHECK_PARAMS)
 #if !defined(MBEDTLS_PARAM_FAILED_ALT)
@@ -2600,7 +2600,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_rsa.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_rsa.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

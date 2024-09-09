@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_NIST_KW_H
 #define MBEDTLS_NIST_KW_H
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/config.h"
+#include "./cipher.h"
+#include "./config.h"
 
 #ifdef __cplusplus
 extern "C" {

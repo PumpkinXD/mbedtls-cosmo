@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -37,7 +37,7 @@
 #define TEST_SUITE_ACTIVE
 
 #if defined(MBEDTLS_BASE64_C)
-#include "third_party/mbedtls/base64.h"
+#include "./base64.h"
 void test_mbedtls_base64_encode( char * src_string, char * dst_string,
                             int dst_buf_size, int result )
 {
@@ -464,7 +464,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_base64.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_base64.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

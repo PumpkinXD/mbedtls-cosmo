@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_ASN1_WRITE_H_
 #define MBEDTLS_ASN1_WRITE_H_
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/config.h"
+#include "./asn1.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ASN1_CHK_ADD(g, f)                      \

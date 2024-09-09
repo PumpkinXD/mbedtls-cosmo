@@ -1,7 +1,7 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SSL_INVASIVE_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SSL_INVASIVE_H_
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/md.h"
+#include "./common.h"
+#include "./md.h"
 COSMOPOLITAN_C_START_
 #if defined(MBEDTLS_TEST_HOOKS) && defined(MBEDTLS_SSL_SOME_SUITES_USE_TLS_CBC)
 

@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_CIPHER_WRAP_H
 #define MBEDTLS_CIPHER_WRAP_H
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/config.h"
+#include "./cipher.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 /**

@@ -15,14 +15,14 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/ecdsa.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/pk.h"
-#include "third_party/mbedtls/pk_internal.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./common.h"
+#include "./ecdsa.h"
+#include "./ecp.h"
+#include "./error.h"
+#include "./pk.h"
+#include "./pk_internal.h"
+#include "./platform.h"
+#include "./rsa.h"
 __static_yoink("mbedtls_notice");
 
 /**

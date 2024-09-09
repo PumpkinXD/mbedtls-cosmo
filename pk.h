@@ -1,10 +1,10 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_PK_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_PK_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/ecdsa.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/md.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./config.h"
+#include "./ecdsa.h"
+#include "./ecp.h"
+#include "./md.h"
+#include "./rsa.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_PK_ALLOC_FAILED        -0x3F80  /*< Memory allocation failed. */

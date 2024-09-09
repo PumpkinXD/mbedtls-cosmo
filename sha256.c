@@ -15,17 +15,17 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/sha256.h"
+#include "./sha256.h"
 #include "libc/dce.h"
 #include "libc/macros.h"
 #include "libc/nexgen32e/nexgen32e.h"
 #include "libc/nexgen32e/sha.h"
 #include "libc/nexgen32e/x86feature.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/endian.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/md.h"
+#include "./common.h"
+#include "./endian.h"
+#include "./error.h"
+#include "./md.h"
 __static_yoink("mbedtls_notice");
 
 /**

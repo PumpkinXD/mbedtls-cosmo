@@ -1,8 +1,8 @@
 #ifndef MBEDTLS_SSL_TICKET_H
 #define MBEDTLS_SSL_TICKET_H
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/ssl.h"
+#include "./cipher.h"
+#include "./config.h"
+#include "./ssl.h"
 
 /*
  * This implementation of the session ticket callbacks includes key

@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_CTR_DRBG_H_
 #define MBEDTLS_CTR_DRBG_H_
-#include "third_party/mbedtls/aes.h"
-#include "third_party/mbedtls/config.h"
+#include "./aes.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_CTR_DRBG_ENTROPY_SOURCE_FAILED        -0x0034  /*< The entropy source failed. */

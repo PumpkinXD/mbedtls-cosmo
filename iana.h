@@ -1,6 +1,6 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_IANA_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_IANA_H_
-#include "third_party/mbedtls/ssl.h"
+#include "./ssl.h"
 COSMOPOLITAN_C_START_
 
 bool IsCipherSuiteGood(uint16_t);

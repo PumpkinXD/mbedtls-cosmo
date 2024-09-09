@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -40,9 +40,9 @@
 #if defined(MBEDTLS_PK_WRITE_C)
 #if defined(MBEDTLS_BIGNUM_C)
 #if defined(MBEDTLS_FS_IO)
-#include "third_party/mbedtls/pk.h"
-#include "third_party/mbedtls/pem.h"
-#include "third_party/mbedtls/oid.h"
+#include "./pk.h"
+#include "./pem.h"
+#include "./oid.h"
 #if defined(MBEDTLS_PEM_WRITE_C)
 void test_pk_write_pubkey_check( char * key_file )
 {
@@ -423,7 +423,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_pkwrite.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_pkwrite.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

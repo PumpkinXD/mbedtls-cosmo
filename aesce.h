@@ -1,6 +1,6 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_AESCE_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_AESCE_H_
-#include "third_party/mbedtls/aes.h"
+#include "./aes.h"
 COSMOPOLITAN_C_START_
 
 /**

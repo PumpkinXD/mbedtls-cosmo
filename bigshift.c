@@ -17,9 +17,9 @@
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/macros.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/bignum_internal.h"
-#include "third_party/mbedtls/platform.h"
+#include "./bignum.h"
+#include "./bignum_internal.h"
+#include "./platform.h"
 
 typedef long long xmm_t __attribute__((__vector_size__(16), __aligned__(1)));
 

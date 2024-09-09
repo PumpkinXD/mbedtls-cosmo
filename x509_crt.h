@@ -1,9 +1,9 @@
 #ifndef MBEDTLS_X509_CRT_H_
 #define MBEDTLS_X509_CRT_H_
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/x509.h"
-#include "third_party/mbedtls/x509_crl.h"
+#include "./bignum.h"
+#include "./config.h"
+#include "./x509.h"
+#include "./x509_crl.h"
 COSMOPOLITAN_C_START_
 
 /**

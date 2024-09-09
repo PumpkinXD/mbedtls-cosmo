@@ -16,11 +16,11 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/time.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/ssl_internal.h"
-#include "third_party/mbedtls/ssl_ticket.h"
+#include "./common.h"
+#include "./error.h"
+#include "./platform.h"
+#include "./ssl_internal.h"
+#include "./ssl_ticket.h"
 __static_yoink("mbedtls_notice");
 
 /*

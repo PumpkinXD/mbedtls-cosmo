@@ -19,13 +19,13 @@
 #include "libc/nexgen32e/x86feature.h"
 #include "libc/runtime/runtime.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/bignum_internal.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/ecp_internal.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/math.h"
-#include "third_party/mbedtls/profile.h"
-#include "third_party/mbedtls/select.h"
+#include "./bignum_internal.h"
+#include "./ecp.h"
+#include "./ecp_internal.h"
+#include "./error.h"
+#include "./math.h"
+#include "./profile.h"
+#include "./select.h"
 
 static bool
 mbedtls_p384_isz( uint64_t p[6] )

@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -37,9 +37,9 @@
 #define TEST_SUITE_ACTIVE
 
 #if defined(MBEDTLS_OID_C)
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/asn1write.h"
+#include "./oid.h"
+#include "./asn1.h"
+#include "./asn1write.h"
 void test_oid_get_certificate_policies( data_t *oid, char *result_str )
 {
     mbedtls_asn1_buf asn1_buf = { 0, 0, NULL };
@@ -515,7 +515,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_oid.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_oid.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

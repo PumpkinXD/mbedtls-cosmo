@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -37,13 +37,13 @@
 #define TEST_SUITE_ACTIVE
 
 #if defined(MBEDTLS_PK_C)
-#include "third_party/mbedtls/pk.h"
+#include "./pk.h"
 
 /* For error codes */
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/base64.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./asn1.h"
+#include "./base64.h"
+#include "./ecp.h"
+#include "./rsa.h"
 
 
 /* Needed only for test case data under #if defined(MBEDTLS_USE_PSA_CRYPTO),
@@ -2106,7 +2106,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_pk.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_pk.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

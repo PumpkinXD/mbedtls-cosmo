@@ -16,7 +16,7 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/serialize.h"
-#include "third_party/mbedtls/endian.h"
+#include "./endian.h"
 
 __notice(cosmo_everest_notice, "\
 Cosmopolitan Everest (Apache 2.0)\n\

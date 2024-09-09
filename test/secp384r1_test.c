@@ -21,10 +21,10 @@
 #include "libc/str/str.h"
 #include "libc/testlib/ezbench.h"
 #include "libc/testlib/testlib.h"
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/ecp_internal.h"
-#include "third_party/mbedtls/math.h"
+#include "./bignum.h"
+#include "./ecp.h"
+#include "./ecp_internal.h"
+#include "./math.h"
 #ifdef MBEDTLS_ECP_C
 
 /*P=0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeffffffff0000000000000000ffffffff*/

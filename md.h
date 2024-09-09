@@ -1,6 +1,6 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_MD_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_MD_H_
-#include "third_party/mbedtls/config.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_MD_FEATURE_UNAVAILABLE                -0x5080  /*< The selected feature is not available. */

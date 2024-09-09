@@ -16,8 +16,8 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/nexgen32e/x86feature.h"
-#include "third_party/mbedtls/bignum_internal.h"
-#include "third_party/mbedtls/math.h"
+#include "./bignum_internal.h"
+#include "./math.h"
 
 /**
  * Computes 512-bit product of 256-bit and 256-bit numbers.

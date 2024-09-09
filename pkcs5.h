@@ -1,8 +1,8 @@
 #ifndef MBEDTLS_PKCS5_H
 #define MBEDTLS_PKCS5_H
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/md.h"
+#include "./asn1.h"
+#include "./config.h"
+#include "./md.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_PKCS5_BAD_INPUT_DATA                  -0x2f80  /*< Bad input parameters to function. */

@@ -15,17 +15,17 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/asn1write.h"
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/ecdsa.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/pem.h"
-#include "third_party/mbedtls/pk.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./asn1write.h"
+#include "./bignum.h"
+#include "./common.h"
+#include "./ecdsa.h"
+#include "./ecp.h"
+#include "./error.h"
+#include "./oid.h"
+#include "./pem.h"
+#include "./pk.h"
+#include "./platform.h"
+#include "./rsa.h"
 __static_yoink("mbedtls_notice");
 
 /*

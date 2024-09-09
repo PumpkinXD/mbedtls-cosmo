@@ -1256,5 +1256,5 @@
 #define MBEDTLS_HAVE_UDBL
 
 #include "libc/dce.h"
-#include "third_party/mbedtls/check.inc"
+#include "./check.inc"
 #endif /* MBEDTLS_CONFIG_H_ */

@@ -1,7 +1,7 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_HKDF_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_HKDF_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/md.h"
+#include "./config.h"
+#include "./md.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_HKDF_BAD_INPUT_DATA  -0x5F80  /*< Bad input parameters to function. */

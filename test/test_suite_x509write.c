@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -39,12 +39,12 @@
 #if defined(MBEDTLS_BIGNUM_C)
 #if defined(MBEDTLS_FS_IO)
 #if defined(MBEDTLS_PK_PARSE_C)
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/x509_crt.h"
-#include "third_party/mbedtls/x509_csr.h"
-#include "third_party/mbedtls/pem.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./bignum.h"
+#include "./x509_crt.h"
+#include "./x509_csr.h"
+#include "./pem.h"
+#include "./oid.h"
+#include "./rsa.h"
 
 #if defined(MBEDTLS_RSA_C)
 int mbedtls_rsa_decrypt_func( void *ctx, int mode, size_t *olen,
@@ -855,7 +855,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_x509write.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_x509write.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

@@ -16,7 +16,7 @@
 │ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR             │
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/ssl.h"
+#include "./ssl.h"
 
 const char *GetSslStateName(mbedtls_ssl_states x) {
   switch (x) {

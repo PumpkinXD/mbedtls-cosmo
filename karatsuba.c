@@ -19,9 +19,9 @@
 #include "libc/nexgen32e/x86feature.h"
 #include "libc/runtime/runtime.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/bignum_internal.h"
-#include "third_party/mbedtls/math.h"
-#include "third_party/mbedtls/platform.h"
+#include "./bignum_internal.h"
+#include "./math.h"
+#include "./platform.h"
 
 forceinline int Cmp(uint64_t *a, uint64_t *b, size_t n) {
   uint64_t x, y;

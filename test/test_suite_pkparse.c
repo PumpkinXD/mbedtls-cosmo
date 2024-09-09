@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -38,9 +38,9 @@
 
 #if defined(MBEDTLS_PK_PARSE_C)
 #if defined(MBEDTLS_BIGNUM_C)
-#include "third_party/mbedtls/pk.h"
-#include "third_party/mbedtls/pem.h"
-#include "third_party/mbedtls/oid.h"
+#include "./pk.h"
+#include "./pem.h"
+#include "./oid.h"
 #if defined(MBEDTLS_RSA_C)
 #if defined(MBEDTLS_FS_IO)
 void test_pk_parse_keyfile_rsa( char * key_file, char * password, int result )
@@ -677,7 +677,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_pkparse.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_pkparse.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

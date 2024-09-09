@@ -1,14 +1,14 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SSL_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SSL_H_
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/dhm.h"
-#include "third_party/mbedtls/ecdh.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/ssl_ciphersuites.h"
-#include "third_party/mbedtls/x509_crl.h"
-#include "third_party/mbedtls/x509_crt.h"
+#include "./bignum.h"
+#include "./config.h"
+#include "./dhm.h"
+#include "./ecdh.h"
+#include "./ecp.h"
+#include "./platform.h"
+#include "./ssl_ciphersuites.h"
+#include "./x509_crl.h"
+#include "./x509_crt.h"
 COSMOPOLITAN_C_START_
 
 /*

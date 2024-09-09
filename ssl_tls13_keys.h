@@ -1,7 +1,7 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SSL_TLS13_KEYS_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_SSL_TLS13_KEYS_H_
-#include "third_party/mbedtls/md.h"
-#include "third_party/mbedtls/ssl_internal.h"
+#include "./md.h"
+#include "./ssl_internal.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_SSL_TLS1_3_CONTEXT_UNHASHED 0

@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 #include "libc/stdio/stdio.h"
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -39,10 +39,10 @@
 
 #if defined(MBEDTLS_ASN1_PARSE_C)
 
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/asn1.h"
+#include "./bignum.h"
+#include "./asn1.h"
 #if defined(MBEDTLS_ASN1_WRITE_C)
-#include "third_party/mbedtls/asn1write.h"
+#include "./asn1write.h"
 #endif
 
 /* Used internally to report an error that indicates a bug in a parsing function. */
@@ -1253,7 +1253,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_asn1parse.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_asn1parse.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

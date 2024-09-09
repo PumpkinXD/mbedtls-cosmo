@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_X509_CSR_H_
 #define MBEDTLS_X509_CSR_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/x509.h"
+#include "./config.h"
+#include "./x509.h"
 COSMOPOLITAN_C_START_
 
 /**

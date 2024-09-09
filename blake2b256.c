@@ -17,7 +17,7 @@
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/str/blake2.h"
-#include "third_party/mbedtls/md.h"
+#include "./md.h"
 
 const mbedtls_md_info_t mbedtls_blake2b256_info = {
     "BLAKE2B256",

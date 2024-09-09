@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_RSA_INTERNAL_H
 #define MBEDTLS_RSA_INTERNAL_H
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/config.h"
+#include "./bignum.h"
+#include "./config.h"
 
 #ifdef __cplusplus
 extern "C" {

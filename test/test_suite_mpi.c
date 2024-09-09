@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -37,8 +37,8 @@
 #define TEST_SUITE_ACTIVE
 
 #if defined(MBEDTLS_BIGNUM_C)
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/entropy.h"
+#include "./bignum.h"
+#include "./entropy.h"
 
 #if MBEDTLS_MPI_MAX_BITS > 792
 #define MPI_MAX_BITS_LARGER_THAN_792
@@ -2337,7 +2337,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_mpi.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_mpi.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

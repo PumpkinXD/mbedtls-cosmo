@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_GCM_H_
 #define MBEDTLS_GCM_H_
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/config.h"
+#include "./cipher.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_GCM_ENCRYPT     1

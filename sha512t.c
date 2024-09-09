@@ -17,8 +17,8 @@
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/macros.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/sha512.h"
+#include "./platform.h"
+#include "./sha512.h"
 __static_yoink("mbedtls_notice");
 
 /*

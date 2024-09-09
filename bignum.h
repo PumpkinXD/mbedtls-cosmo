@@ -1,9 +1,9 @@
 #ifndef MBEDTLS_BIGNUM_H_
 #define MBEDTLS_BIGNUM_H_
 #include "libc/stdio/stdio.h"
-#include "third_party/mbedtls/bignum_internal.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/platform.h"
+#include "./bignum_internal.h"
+#include "./config.h"
+#include "./platform.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_ERR_MPI_FILE_IO_ERROR                     -0x0002  /*< An error occurred while reading from or writing to a file. */

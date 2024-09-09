@@ -18,11 +18,11 @@
 #include "libc/calls/calls.h"
 #include "libc/stdio/stdio.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/entropy.h"
-#include "third_party/mbedtls/entropy_poll.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/platform.h"
+#include "./common.h"
+#include "./entropy.h"
+#include "./entropy_poll.h"
+#include "./error.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 /*

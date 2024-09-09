@@ -15,7 +15,7 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/md.h"
+#include "./md.h"
 
 const char *mbedtls_md_type_name(mbedtls_md_type_t t) {
   switch (t) {

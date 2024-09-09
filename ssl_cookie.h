@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_SSL_COOKIE_H
 #define MBEDTLS_SSL_COOKIE_H
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/ssl.h"
+#include "./config.h"
+#include "./ssl.h"
 
 /**
  * \name SECTION: Module settings

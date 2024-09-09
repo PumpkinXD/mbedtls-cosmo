@@ -1,10 +1,10 @@
 #ifndef MBEDTLS_OID_H
 #define MBEDTLS_OID_H
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/md.h"
-#include "third_party/mbedtls/pk.h"
+#include "./asn1.h"
+#include "./cipher.h"
+#include "./config.h"
+#include "./md.h"
+#include "./pk.h"
 
 #define MBEDTLS_ERR_OID_NOT_FOUND                         -0x002E  /*< OID is not found. */
 #define MBEDTLS_ERR_OID_BUF_TOO_SMALL                     -0x000B  /*< output buffer is too small */

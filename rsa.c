@@ -15,18 +15,18 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/rsa.h"
+#include "./rsa.h"
 #include "libc/intrin/strace.h"
 #include "libc/runtime/runtime.h"
 #include "libc/stdio/rand.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/md.h"
-#include "third_party/mbedtls/oid.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/profile.h"
-#include "third_party/mbedtls/rsa_internal.h"
-#include "third_party/mbedtls/sha1.h"
+#include "./common.h"
+#include "./error.h"
+#include "./md.h"
+#include "./oid.h"
+#include "./platform.h"
+#include "./profile.h"
+#include "./rsa_internal.h"
+#include "./sha1.h"
 __static_yoink("mbedtls_notice");
 
 /**

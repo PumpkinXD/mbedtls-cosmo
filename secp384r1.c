@@ -17,9 +17,9 @@
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/log/check.h"
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/ecp_internal.h"
-#include "third_party/mbedtls/math.h"
+#include "./bignum.h"
+#include "./ecp_internal.h"
+#include "./math.h"
 
 #define Q(i) p[i >> 1]
 

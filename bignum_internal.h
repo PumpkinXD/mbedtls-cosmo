@@ -1,6 +1,6 @@
 #ifndef COSMOPOLITAN_THIRD_PARTY_MBEDTLS_BIGNUM_INTERNAL_H_
 #define COSMOPOLITAN_THIRD_PARTY_MBEDTLS_BIGNUM_INTERNAL_H_
-#include "third_party/mbedtls/platform.h"
+#include "./platform.h"
 COSMOPOLITAN_C_START_
 
 #define MPI_VALIDATE_RET(cond) \

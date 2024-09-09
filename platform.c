@@ -15,7 +15,7 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/platform.h"
+#include "./platform.h"
 
 int mbedtls_platform_setup(mbedtls_platform_context *ctx) {
   return 0;

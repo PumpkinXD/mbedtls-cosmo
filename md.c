@@ -19,14 +19,14 @@
 #include "libc/stdio/stdio.h"
 #include "libc/str/blake2.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/md.h"
-#include "third_party/mbedtls/md5.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/sha1.h"
-#include "third_party/mbedtls/sha256.h"
-#include "third_party/mbedtls/sha512.h"
+#include "./common.h"
+#include "./error.h"
+#include "./md.h"
+#include "./md5.h"
+#include "./platform.h"
+#include "./sha1.h"
+#include "./sha256.h"
+#include "./sha512.h"
 __static_yoink("mbedtls_notice");
 
 /**

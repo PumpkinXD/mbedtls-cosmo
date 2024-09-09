@@ -3,8 +3,8 @@
 #include "libc/str/str.h"
 #include "libc/x/x.h"
 #include "libc/x/xasprintf.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/platform.h"
+#include "./config.h"
+#include "./platform.h"
 
 #define DEPENDENCY_SUPPORTED    0
 #define KEY_VALUE_MAPPING_FOUND 0

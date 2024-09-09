@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -37,7 +37,7 @@
 #define TEST_SUITE_ACTIVE
 
 #if defined(MBEDTLS_PKCS5_C)
-#include "third_party/mbedtls/pkcs5.h"
+#include "./pkcs5.h"
 void test_pbkdf2_hmac( int hash, data_t * pw_str, data_t * salt_str,
                        int it_cnt, int key_len, data_t * result_key_string )
 {
@@ -464,7 +464,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_pkcs5.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_pkcs5.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

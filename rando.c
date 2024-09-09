@@ -19,7 +19,7 @@
 #include "libc/nexgen32e/x86feature.h"
 #include "libc/stdio/rand.h"
 #include "libc/sysv/consts/grnd.h"
-#include "third_party/mbedtls/entropy_poll.h"
+#include "./entropy_poll.h"
 
 int mbedtls_hardware_poll(void *wut, unsigned char *p, size_t n, size_t *olen) {
   ssize_t rc;

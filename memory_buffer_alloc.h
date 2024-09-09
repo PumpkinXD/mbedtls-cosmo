@@ -1,6 +1,6 @@
 #ifndef MBEDTLS_MEMORY_BUFFER_ALLOC_H
 #define MBEDTLS_MEMORY_BUFFER_ALLOC_H
-#include "third_party/mbedtls/config.h"
+#include "./config.h"
 
 /**
  * \name SECTION: Module settings

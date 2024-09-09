@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_DHM_H
 #define MBEDTLS_DHM_H
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/config.h"
+#include "./bignum.h"
+#include "./config.h"
 
 /*
  * DHM Error codes

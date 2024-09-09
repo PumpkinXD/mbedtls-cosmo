@@ -1,8 +1,8 @@
 #ifndef MBEDTLS_ECDH_H
 #define MBEDTLS_ECDH_H
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/ecdh_everest.h"
-#include "third_party/mbedtls/ecp.h"
+#include "./config.h"
+#include "./ecdh_everest.h"
+#include "./ecp.h"
 
 #ifdef __cplusplus
 extern "C" {

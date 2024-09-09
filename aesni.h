@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_AESNI_H_
 #define MBEDTLS_AESNI_H_
-#include "third_party/mbedtls/aes.h"
-#include "third_party/mbedtls/config.h"
+#include "./aes.h"
+#include "./config.h"
 COSMOPOLITAN_C_START_
 
 #define MBEDTLS_AESNI_AES      0x02000000u

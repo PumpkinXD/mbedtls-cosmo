@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -38,7 +38,7 @@
 
 #if defined(MBEDTLS_DHM_C)
 #if defined(MBEDTLS_BIGNUM_C)
-#include "third_party/mbedtls/dhm.h"
+#include "./dhm.h"
 #if defined(MBEDTLS_CHECK_PARAMS)
 #if !defined(MBEDTLS_PARAM_FAILED_ALT)
 void test_dhm_invalid_params( )
@@ -614,7 +614,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_dhm.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_dhm.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

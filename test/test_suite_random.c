@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -39,11 +39,11 @@
 
 /* Test random generation as a whole. */
 
-#include "third_party/mbedtls/bignum.h"
-#include "third_party/mbedtls/ctr_drbg.h"
-#include "third_party/mbedtls/ecdsa.h"
-#include "third_party/mbedtls/entropy.h"
-#include "third_party/mbedtls/hmac_drbg.h"
+#include "./bignum.h"
+#include "./ctr_drbg.h"
+#include "./ecdsa.h"
+#include "./entropy.h"
+#include "./hmac_drbg.h"
 
 /* How many bytes to generate in each test case for repeated generation.
  * This must be high enough that the probability of generating the same
@@ -654,7 +654,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_random.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_random.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

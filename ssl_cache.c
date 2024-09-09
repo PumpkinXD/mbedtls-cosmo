@@ -17,10 +17,10 @@
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/log/log.h"
 #include "libc/time.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/ssl_cache.h"
-#include "third_party/mbedtls/ssl_internal.h"
+#include "./common.h"
+#include "./platform.h"
+#include "./ssl_cache.h"
+#include "./ssl_internal.h"
 __static_yoink("mbedtls_notice");
 
 /*

@@ -16,10 +16,10 @@
 │ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR             │
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/iana.h"
-#include "third_party/mbedtls/net_sockets.h"
-#include "third_party/mbedtls/ssl.h"
-#include "third_party/mbedtls/x509.h"
+#include "./iana.h"
+#include "./net_sockets.h"
+#include "./ssl.h"
+#include "./x509.h"
 
 const char *DescribeSslClientHandshakeError(const mbedtls_ssl_context *ssl,
                                             int ret) {

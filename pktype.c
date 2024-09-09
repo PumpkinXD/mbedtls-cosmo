@@ -16,7 +16,7 @@
 │ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR             │
 │ PERFORMANCE OF THIS SOFTWARE.                                                │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/pk.h"
+#include "./pk.h"
 
 const char *mbedtls_pk_type_name(mbedtls_pk_type_t t) {
   switch (t) {

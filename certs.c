@@ -15,8 +15,8 @@
 │ See the License for the specific language governing permissions and          │
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
-#include "third_party/mbedtls/certs.h"
-#include "third_party/mbedtls/common.h"
+#include "./certs.h"
+#include "./common.h"
 __static_yoink("mbedtls_notice");
 
 #if defined(MBEDTLS_CERTS_C)

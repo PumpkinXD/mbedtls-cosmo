@@ -17,16 +17,16 @@
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/mem/mem.h"
 #include "libc/str/str.h"
-#include "third_party/mbedtls/aes.h"
-#include "third_party/mbedtls/base64.h"
-#include "third_party/mbedtls/chk.h"
-#include "third_party/mbedtls/cipher.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/des.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/md5.h"
-#include "third_party/mbedtls/pem.h"
-#include "third_party/mbedtls/platform.h"
+#include "./aes.h"
+#include "./base64.h"
+#include "./chk.h"
+#include "./cipher.h"
+#include "./common.h"
+#include "./des.h"
+#include "./error.h"
+#include "./md5.h"
+#include "./pem.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 /**

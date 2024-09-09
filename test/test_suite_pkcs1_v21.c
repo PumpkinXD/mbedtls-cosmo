@@ -14,7 +14,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-#include "third_party/mbedtls/test/test.inc"
+#include "./test/test.inc"
 /*
  * *** THIS FILE WAS MACHINE GENERATED ***
  *
@@ -39,8 +39,8 @@
 #if defined(MBEDTLS_PKCS1_V21)
 #if defined(MBEDTLS_RSA_C)
 #if defined(MBEDTLS_SHA1_C)
-#include "third_party/mbedtls/rsa.h"
-#include "third_party/mbedtls/md.h"
+#include "./rsa.h"
+#include "./md.h"
 void test_pkcs1_rsaes_oaep_encrypt( int mod, int radix_N, char * input_N,
                                int radix_E, char * input_E, int hash,
                                data_t * message_str, data_t * rnd_buf,
@@ -632,7 +632,7 @@ int main( int argc, const char *argv[] )
 {
     int ret;
     mbedtls_test_platform_setup();
-    ret = execute_tests( argc, argv, "/zip/third_party/mbedtls/test/test_suite_pkcs1_v21.datax" );
+    ret = execute_tests( argc, argv, "/zip/./test/test_suite_pkcs1_v21.datax" );
     mbedtls_test_platform_teardown();
     return( ret );
 }

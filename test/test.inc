@@ -4,8 +4,8 @@
 #include "libc/limits.h"
 #include "libc/macros.h"
 #include "libc/sysv/consts/exit.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/test/lib.h"
+#include "./config.h"
+#include "./test/lib.h"
 __static_yoink("mbedtls_notice");
 
 __static_yoink("zipos");

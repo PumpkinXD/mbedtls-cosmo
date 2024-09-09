@@ -1,8 +1,8 @@
 #ifndef MBEDTLS_DEBUG_H
 #define MBEDTLS_DEBUG_H
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/ssl.h"
+#include "./config.h"
+#include "./ecp.h"
+#include "./ssl.h"
 COSMOPOLITAN_C_START_
 
 #ifdef MBEDTLS_DEBUG_C

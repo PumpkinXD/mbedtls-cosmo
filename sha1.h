@@ -1,7 +1,7 @@
 #ifndef MBEDTLS_SHA1_H_
 #define MBEDTLS_SHA1_H_
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/platform.h"
+#include "./config.h"
+#include "./platform.h"
 COSMOPOLITAN_C_START_
 
 /* MBEDTLS_ERR_SHA1_HW_ACCEL_FAILED is deprecated and should not be used. */

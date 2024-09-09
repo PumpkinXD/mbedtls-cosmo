@@ -16,17 +16,17 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/mem/mem.h"
-#include "third_party/mbedtls/aes.h"
-#include "third_party/mbedtls/ccm.h"
-#include "third_party/mbedtls/chacha20.h"
-#include "third_party/mbedtls/chachapoly.h"
-#include "third_party/mbedtls/cipher_internal.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/des.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/gcm.h"
-#include "third_party/mbedtls/nist_kw.h"
-#include "third_party/mbedtls/platform.h"
+#include "./aes.h"
+#include "./ccm.h"
+#include "./chacha20.h"
+#include "./chachapoly.h"
+#include "./cipher_internal.h"
+#include "./common.h"
+#include "./des.h"
+#include "./error.h"
+#include "./gcm.h"
+#include "./nist_kw.h"
+#include "./platform.h"
 __static_yoink("mbedtls_notice");
 
 #if defined(MBEDTLS_CIPHER_C)

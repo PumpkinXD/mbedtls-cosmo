@@ -21,8 +21,8 @@
 #include "libc/str/str.h"
 #include "libc/testlib/ezbench.h"
 #include "libc/testlib/testlib.h"
-#include "third_party/mbedtls/config.h"
-#include "third_party/mbedtls/endian.h"
+#include "./config.h"
+#include "./endian.h"
 
 void Hacl_Curve25519_crypto_scalarmult(uint8_t *, uint8_t *, uint8_t *);
 void curve25519(uint8_t[32], uint8_t[32], uint8_t[32]);

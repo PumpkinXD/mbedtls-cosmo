@@ -16,15 +16,15 @@
 │ limitations under the License.                                               │
 ╚─────────────────────────────────────────────────────────────────────────────*/
 #include "libc/str/str.h"
-#include "third_party/mbedtls/asn1.h"
-#include "third_party/mbedtls/asn1write.h"
-#include "third_party/mbedtls/common.h"
-#include "third_party/mbedtls/ecdsa.h"
-#include "third_party/mbedtls/ecp.h"
-#include "third_party/mbedtls/error.h"
-#include "third_party/mbedtls/pk_internal.h"
-#include "third_party/mbedtls/platform.h"
-#include "third_party/mbedtls/rsa.h"
+#include "./asn1.h"
+#include "./asn1write.h"
+#include "./common.h"
+#include "./ecdsa.h"
+#include "./ecp.h"
+#include "./error.h"
+#include "./pk_internal.h"
+#include "./platform.h"
+#include "./rsa.h"
 __static_yoink("mbedtls_notice");
 
 /**
